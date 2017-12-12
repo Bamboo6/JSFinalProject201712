@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="center">
+    <div class="login-page">
+        <div class="form">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <form action="main.html" method="post" name="form1" onsubmit="return checklogin()">
+                    <!--用户名-->
+                    <tr>
+                        <td>
+                            姓名：
+                        </td>
+                        <td>
+                            <input id="user" type="text"/>
+                            <div id="userId" class="red"></div>
+                        </td>
+                    </tr>
+                    <!--密码-->
+                    <tr>
+                        <td>
+                            学号：
+                        </td>
+                        <td>
+                            <input id="pwd" type="text"/>
+                            <div id="pwdId" class="red"></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button id="login" type="submit">登录</button>
+                        </td>
+                        <td>
+                            <!--<button type="button" onclick="window.open('register.html')">注册</button>-->
+                            <a href="register.html">
+                                <button type="button">注册</button>
+                            </a>
+                    </tr>
+
+                </form>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
