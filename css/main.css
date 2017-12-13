@@ -6,7 +6,9 @@ li {
     list-style:none;
 }
 body {
-    margin:10px;background:#ccc;
+    margin:10px;
+    background: #6eb6fe;
+    background: linear-gradient(to left, #6eb6fe, #bce8f1);/*页面颜色线性渐变*/
 }
 
 .wrap {
